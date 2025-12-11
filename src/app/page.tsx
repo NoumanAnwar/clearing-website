@@ -1,7 +1,8 @@
 import Hero from "@/app/components/Hero";
 import ServicesSection from "@/app/components/ServicesSection";
 import ContactSection from "@/app/components/ContactSection";
-
+import Hero1 from "@/app/components/Hero1";
+import Hero2 from "@/app/components/Hero2";
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
      
       {/* Services Section */}
       <ServicesSection />
+
+      <Hero1 />
+
+      <Hero2 />
 
       {/* Contact Section */}
       <ContactSection />
